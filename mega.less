@@ -1,0 +1,174 @@
+@width-100:100%;
+@width-50:50%;
+@border50:50%;
+@relative:relative;
+@absolute:absolute;
+@inline:inline;
+@flex:flex;
+@pointer:pointer;
+@bold:bold;
+@cover:cover;
+@contain:contain;
+@center-text:center;
+@fright:right;
+@fleft:left;
+@block:block;
+@hidden:hidden;
+@inline-block:inline-block;
+@no-repeat:no-repeat;
+@initial:initial;
+@bolder:bolder;
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+    font-family: roboto;
+}
+.product{
+    display: @inline;
+
+}
+.product-details, .activity-details{
+    width: 100%;
+    margin: 0 10px;
+    border-right: 1px solid #ccc;
+    .football, .golf, .gym, .outdoors, .running, .swim{
+        width: 200px;
+        /* height: 200px; */
+        display: @flex;
+        .football-text, .golf-text, .gym-text, .outdoors-text, .running-text, .swim-text{
+            width: 150px;
+            float: @fleft;
+            padding: 10px;
+        }
+        
+    }
+    h5{
+        color: red;
+    }
+    h3{
+        font-size: 18px;
+        font-weight: @bolder;
+        text-decoration: underline;
+    }
+    a{
+        display: @block;
+        color: #666;
+    }
+
+}
+.product-details a{
+    padding-bottom: 18px;
+}
+
+.activity-icons-images{
+    width: 50px;
+    height: 50px;
+    background-size: @contain;
+    float: @fleft;
+    border-radius: 50%;
+    margin-bottom: 5px;
+    background-repeat: @no-repeat;
+    border: 1px solid #666;
+}
+
+.football-img{
+    background: url("football.jpg");
+   .activity-icons-images();
+    
+}
+.golf-img{
+    background: url("golf.png");
+    .activity-icons-images();
+}
+.gym-img{
+    background: url("gym.jpg");
+    .activity-icons-images();
+}
+.outdoors-img{
+    background: url("cricket.jpg");
+    .activity-icons-images();
+}
+.running-img{
+    background: url("running.jpg");
+    .activity-icons-images();
+}
+.swim-img{
+    background: url("swim.jpg");
+    .activity-icons-images();
+}
+
+.changing-images{
+    background-size: @contain;
+    height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 1px solid #ccc;
+    width: 100%;
+    margin: 0 10px;
+    margin-top: 20px;
+    
+}
+
+.default-img-1{
+    background: url("default-1.jpeg");
+    .changing-images();
+    
+}
+.default-img-2{
+    background: url("default-2.jpeg");
+    .changing-images();
+}
+.football-img-1{
+    background: url("football-1.jpeg");
+    .changing-images();
+}
+.football-img-2{
+    background: url("football-2.jpeg");
+    .changing-images();
+}
+.golf-img-1{
+    background: url("golf-1.jpeg");
+    .changing-images();
+}
+.golf-img-2{
+    background: url("golf-2.jpeg");
+    .changing-images();
+}
+.gym-img-1{
+    background: url("gym-1.jpeg");
+    .changing-images();
+}
+.gym-img-2{
+    background: url("gym-2.jpeg");
+    .changing-images();
+}
+.outdoors-img-1{
+    background: url("outdoors-1.jpeg");
+    .changing-images();
+}
+.outdoors-img-2{
+    background: url("outdoors-2.jpeg");
+    .changing-images();
+}
+.running-img-1{
+    background: url("running-1.jpeg");
+    .changing-images();
+}
+.running-img-2{
+    background: url("running-2.jpeg");
+    .changing-images();
+}
+.swim-img-1{
+    background: url("swim-1.jpeg");
+    .changing-images();
+}
+.swim-img-2{
+    background: url("swim-2.jpeg");
+    .changing-images();
+}
+            
+           
+            
+            
+            

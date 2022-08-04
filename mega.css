@@ -1,0 +1,365 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: roboto;
+}
+.product {
+  display: inline;
+}
+.product-details,
+.activity-details {
+  width: 100%;
+  margin: 0 10px;
+  border-right: 1px solid #ccc;
+}
+.product-details .football,
+.activity-details .football,
+.product-details .golf,
+.activity-details .golf,
+.product-details .gym,
+.activity-details .gym,
+.product-details .outdoors,
+.activity-details .outdoors,
+.product-details .running,
+.activity-details .running,
+.product-details .swim,
+.activity-details .swim {
+  width: 200px;
+  /* height: 200px; */
+  display: flex;
+}
+.product-details .football .football-text,
+.activity-details .football .football-text,
+.product-details .golf .football-text,
+.activity-details .golf .football-text,
+.product-details .gym .football-text,
+.activity-details .gym .football-text,
+.product-details .outdoors .football-text,
+.activity-details .outdoors .football-text,
+.product-details .running .football-text,
+.activity-details .running .football-text,
+.product-details .swim .football-text,
+.activity-details .swim .football-text,
+.product-details .football .golf-text,
+.activity-details .football .golf-text,
+.product-details .golf .golf-text,
+.activity-details .golf .golf-text,
+.product-details .gym .golf-text,
+.activity-details .gym .golf-text,
+.product-details .outdoors .golf-text,
+.activity-details .outdoors .golf-text,
+.product-details .running .golf-text,
+.activity-details .running .golf-text,
+.product-details .swim .golf-text,
+.activity-details .swim .golf-text,
+.product-details .football .gym-text,
+.activity-details .football .gym-text,
+.product-details .golf .gym-text,
+.activity-details .golf .gym-text,
+.product-details .gym .gym-text,
+.activity-details .gym .gym-text,
+.product-details .outdoors .gym-text,
+.activity-details .outdoors .gym-text,
+.product-details .running .gym-text,
+.activity-details .running .gym-text,
+.product-details .swim .gym-text,
+.activity-details .swim .gym-text,
+.product-details .football .outdoors-text,
+.activity-details .football .outdoors-text,
+.product-details .golf .outdoors-text,
+.activity-details .golf .outdoors-text,
+.product-details .gym .outdoors-text,
+.activity-details .gym .outdoors-text,
+.product-details .outdoors .outdoors-text,
+.activity-details .outdoors .outdoors-text,
+.product-details .running .outdoors-text,
+.activity-details .running .outdoors-text,
+.product-details .swim .outdoors-text,
+.activity-details .swim .outdoors-text,
+.product-details .football .running-text,
+.activity-details .football .running-text,
+.product-details .golf .running-text,
+.activity-details .golf .running-text,
+.product-details .gym .running-text,
+.activity-details .gym .running-text,
+.product-details .outdoors .running-text,
+.activity-details .outdoors .running-text,
+.product-details .running .running-text,
+.activity-details .running .running-text,
+.product-details .swim .running-text,
+.activity-details .swim .running-text,
+.product-details .football .swim-text,
+.activity-details .football .swim-text,
+.product-details .golf .swim-text,
+.activity-details .golf .swim-text,
+.product-details .gym .swim-text,
+.activity-details .gym .swim-text,
+.product-details .outdoors .swim-text,
+.activity-details .outdoors .swim-text,
+.product-details .running .swim-text,
+.activity-details .running .swim-text,
+.product-details .swim .swim-text,
+.activity-details .swim .swim-text {
+  width: 150px;
+  float: left;
+  padding: 10px;
+}
+.product-details h5,
+.activity-details h5 {
+  color: red;
+}
+.product-details h3,
+.activity-details h3 {
+  font-size: 18px;
+  font-weight: bolder;
+  text-decoration: underline;
+}
+.product-details a,
+.activity-details a {
+  display: block;
+  color: #666;
+}
+.product-details a {
+  padding-bottom: 18px;
+}
+.activity-icons-images {
+  width: 50px;
+  height: 50px;
+  background-size: contain;
+  float: left;
+  border-radius: 50%;
+  margin-bottom: 5px;
+  background-repeat: no-repeat;
+  border: 1px solid #666;
+}
+.football-img {
+  background: url("football.jpg");
+  width: 50px;
+  height: 50px;
+  background-size: contain;
+  float: left;
+  border-radius: 50%;
+  margin-bottom: 5px;
+  background-repeat: no-repeat;
+  border: 1px solid #666;
+}
+.golf-img {
+  background: url("golf.png");
+  width: 50px;
+  height: 50px;
+  background-size: contain;
+  float: left;
+  border-radius: 50%;
+  margin-bottom: 5px;
+  background-repeat: no-repeat;
+  border: 1px solid #666;
+}
+.gym-img {
+  background: url("gym.jpg");
+  width: 50px;
+  height: 50px;
+  background-size: contain;
+  float: left;
+  border-radius: 50%;
+  margin-bottom: 5px;
+  background-repeat: no-repeat;
+  border: 1px solid #666;
+}
+.outdoors-img {
+  background: url("cricket.jpg");
+  width: 50px;
+  height: 50px;
+  background-size: contain;
+  float: left;
+  border-radius: 50%;
+  margin-bottom: 5px;
+  background-repeat: no-repeat;
+  border: 1px solid #666;
+}
+.running-img {
+  background: url("running.jpg");
+  width: 50px;
+  height: 50px;
+  background-size: contain;
+  float: left;
+  border-radius: 50%;
+  margin-bottom: 5px;
+  background-repeat: no-repeat;
+  border: 1px solid #666;
+}
+.swim-img {
+  background: url("swim.jpg");
+  width: 50px;
+  height: 50px;
+  background-size: contain;
+  float: left;
+  border-radius: 50%;
+  margin-bottom: 5px;
+  background-repeat: no-repeat;
+  border: 1px solid #666;
+}
+.changing-images {
+  background-size: contain;
+  height: 300px;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: 1px solid #ccc;
+  width: 100%;
+  margin: 0 10px;
+  margin-top: 20px;
+}
+.default-img-1 {
+  background: url("default-1.jpeg");
+  background-size: contain;
+  height: 300px;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: 1px solid #ccc;
+  width: 100%;
+  margin: 0 10px;
+  margin-top: 20px;
+}
+.default-img-2 {
+  background: url("default-2.jpeg");
+  background-size: contain;
+  height: 300px;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: 1px solid #ccc;
+  width: 100%;
+  margin: 0 10px;
+  margin-top: 20px;
+}
+.football-img-1 {
+  background: url("football-1.jpeg");
+  background-size: contain;
+  height: 300px;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: 1px solid #ccc;
+  width: 100%;
+  margin: 0 10px;
+  margin-top: 20px;
+}
+.football-img-2 {
+  background: url("football-2.jpeg");
+  background-size: contain;
+  height: 300px;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: 1px solid #ccc;
+  width: 100%;
+  margin: 0 10px;
+  margin-top: 20px;
+}
+.golf-img-1 {
+  background: url("golf-1.jpeg");
+  background-size: contain;
+  height: 300px;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: 1px solid #ccc;
+  width: 100%;
+  margin: 0 10px;
+  margin-top: 20px;
+}
+.golf-img-2 {
+  background: url("golf-2.jpeg");
+  background-size: contain;
+  height: 300px;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: 1px solid #ccc;
+  width: 100%;
+  margin: 0 10px;
+  margin-top: 20px;
+}
+.gym-img-1 {
+  background: url("gym-1.jpeg");
+  background-size: contain;
+  height: 300px;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: 1px solid #ccc;
+  width: 100%;
+  margin: 0 10px;
+  margin-top: 20px;
+}
+.gym-img-2 {
+  background: url("gym-2.jpeg");
+  background-size: contain;
+  height: 300px;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: 1px solid #ccc;
+  width: 100%;
+  margin: 0 10px;
+  margin-top: 20px;
+}
+.outdoors-img-1 {
+  background: url("outdoors-1.jpeg");
+  background-size: contain;
+  height: 300px;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: 1px solid #ccc;
+  width: 100%;
+  margin: 0 10px;
+  margin-top: 20px;
+}
+.outdoors-img-2 {
+  background: url("outdoors-2.jpeg");
+  background-size: contain;
+  height: 300px;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: 1px solid #ccc;
+  width: 100%;
+  margin: 0 10px;
+  margin-top: 20px;
+}
+.running-img-1 {
+  background: url("running-1.jpeg");
+  background-size: contain;
+  height: 300px;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: 1px solid #ccc;
+  width: 100%;
+  margin: 0 10px;
+  margin-top: 20px;
+}
+.running-img-2 {
+  background: url("running-2.jpeg");
+  background-size: contain;
+  height: 300px;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: 1px solid #ccc;
+  width: 100%;
+  margin: 0 10px;
+  margin-top: 20px;
+}
+.swim-img-1 {
+  background: url("swim-1.jpeg");
+  background-size: contain;
+  height: 300px;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: 1px solid #ccc;
+  width: 100%;
+  margin: 0 10px;
+  margin-top: 20px;
+}
+.swim-img-2 {
+  background: url("swim-2.jpeg");
+  background-size: contain;
+  height: 300px;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: 1px solid #ccc;
+  width: 100%;
+  margin: 0 10px;
+  margin-top: 20px;
+}
