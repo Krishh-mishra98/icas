@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html>
+	<meta charset="UTF-8">
+	<head>
+        
+        <title>task-3-telecommunication</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="telecommunication.css">
+        <script  src="side-nav.js"></script>
+        <script  src="mega.js"></script>
+        
+    </head>
+    <body>
+        <div class="wrapper">
+            <div class="container top-logo-container" id="">       <!-- container class for 3 logos on top -->
+                <div class="row">
+                    <div class="col-md-4 center-block">
+                        <div class="row">
+                            <div class="oman-flag-container">
+                                <div class="flag-top">
+                                  <img src="oman-flag.jpg">
+                                </div>
+                                <div class="numbers">
+                                  <p>0097444419459</p>
+                                  <p>info@icas.ae</p>
+                                  
+                              </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class="col-md-4 center-block">
+                        <img src="amlogo.jpg" id="amlogo">
+                    </div>
+                    <div class="col-md-4 center-block download-logo">
+                        <!-- <div class="download-logo"> -->
+                            <i class="fa fa-cloud-download" style="font-size:20px;color:white">&nbsp;Download Profile</i>
+                        <!-- </div> -->
+                    </div>
+                </div>
+            </div>
+            <nav class="navbar navbar-custom sidebarNavigation" data-sidebarClass="navbar-custom">
+                <div class="container-fluid ">
+                  <div class="navbar-header">
+                    <div class="navbar-logo-container">
+                        <div class="flag">
+                          <img src="oman-flag.jpg">
+                        </div>
+                        <div class="amlogo">
+                          <img src="amlogo.jpg">
+                        </div>
+                    </div>
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                      <span class="icon-bar "></span>
+                      <span class="icon-bar "></span>
+                      <span class="icon-bar"></span>                        
+                    </button>
+                  </div>
+                  <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav ">
+                      <li ><a href="homepage.html"><h5 class="nav-text-color">HOME</h5></a></li>
+                      <li ><a href="#"><h5 class="nav-text-color">ABOUT US </h5></a></li>
+                      <li ><a href="#"><h5 class="nav-text-color">SERVICES</h5></a></li>
+                      <li ><a href="#"><h5 class="nav-text-color">MARKET SEGMENTS</h5></a></li>
+                      <li id="show-menu"><a href="#" ><h5 class="nav-text-color">PRODUCTS PROFILE</h5></a>
+                        <div class="container mega-menu"><!-- container class for mega-menu -->
+                            <div class="row">
+                                <div class="col-md-3  product">
+                                    <div class="product-details">
+                                        <h3>SHOP BY PRODUCT</h3>
+                                        <h5>30% off sneaker brands</h5>
+                                        <a href="#">View all</a>
+                                        <a href="#">Accessories</a>
+                                        <a href="#">Footwear</a>
+                                        <a href="#">Jackets</a>
+                                        <a href="#">Shorts</a>
+                                        <a href="#">Swim</a>
+                                        <a href="#">Tops</a>
+                                        <a href="#">Trousers & Tights</a>
+                                    </div>
+                                </div>
+                                <div class="col-md-3  activity">
+                                    <div class="activity-details">
+                                        <h3>SHOP BY ACTIVITY</h3>
+                                        <div class="football">
+                                            <div class="football-img"></div>
+                                            <div class="football-text">
+                                                <a id="football" href="#">Football</a>
+                                            </div>
+                                        </div>
+                                        <div class="golf">
+                                            <div class="golf-img"></div>
+                                            <div class="golf-text">
+                                                <a id="golf" href="#">Golf</a>
+                                            </div>
+                                        </div>
+                                        <div class="gym">
+                                            <div class="gym-img"></div>
+                                            <div class="gym-text">
+                                                <a id="gym" href="#">Gym & Training</a>
+                                            </div>
+                                        </div>
+                                        <div class="outdoors">
+                                            <div class="outdoors-img"></div>
+                                            <div class="outdoors-text">
+                                                <a id="outdoors" href="#">Outdoors</a>
+                                            </div>
+                                        </div>
+                                        <div class="running">
+                                            <div class="running-img"></div>
+                                            <div class="running-text">
+                                                <a id="running" href="#">Running</a>
+                                            </div>
+                                        </div>
+                                        <div class="swim">
+                                            <div class="swim-img"></div>
+                                            <div class="swim-text">
+                                                <a  id="swim" href="#">Swim</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 default">
+                                    <a href="homepage.html">
+                                        <div class="default-img-1">
+                                            <div class="nike">
+                                                <p>NIKE</p>
+                                            </div>
+                                        </div></a>
+                                </div>
+                                <div class="col-md-3 default">
+                                    <a href="homepage.html">
+                                        <div class="default-img-2">
+                                            <div class="run">
+                                                <p>RUNNING</p>
+                                            </div>
+                                        </div></a>
+                                </div>
+                                
+                            </div>
+                        </div>
+            
+                    </li>
+                      <li ><a href="careers-3.html"><h5 class="nav-text-color">CAREER</h5></a></li>
+                      <li ><a href="#"><h5 class="nav-text-color">MAJOR PROJECTS</h5></a></li>
+                      <li ><a href="#"><h5 class="nav-text-color">CONTACT US</h5></a></li>
+                    </ul>
+              
+                  </div>
+                </div>
+            </nav>
+            <div class="container-fluid">    <!-- banner-class -->
+                <div class="telecommunication-banner">
+                    <img src="product-profile.jpg">
+                </div>
+            </div>
+
+            <div class="container">    <!-- container-form-class -->
+                <div class="col-md-12">
+                    <div class="telecommunication-btn">
+                        Telecommunication
+                    </div>
+                </div>
+            </div>
+
+            <div class="container belden">
+                <div class="row">
+                    <div class="col-md-12 about-telecommunication">
+                        <p>Telecommunication  division is  specialized  in structured  cabling solutions, 
+                            WiFi solutions,  industrial switches and routers solutions.  We are  proud to be 
+                            associated as authorized  channel partner of world  renowned brand -  enabling us
+                            to give our esteemed clients  end to end solutions-  Design Supply and Installation.
+                        </p>
+                    </div>
+                    <div class="col-md-6">
+                        <p>www.belden.com</p>
+                        <img src="tele1.jpg">
+                    </div>
+                    <div class="col-md-6">
+                        <img src="sponser1.jpg" id="logo-belden">
+                        <p> Belden  IBDN  is a standards  based,  end-to-end  structured cabling system that allows
+                            users to  build an  information  infrastructure that will evolve and constantly keep up
+                            with competitive work environments.
+                        </p>
+                        <p> Belden offers  several  Belden IBDN  systems to choose form</p>
+                        <ul class="list-group-1">
+                            <li><p> Belden  IBDN cabling  solutions </p></li>
+                            <li><p>FibreExpress cabling system</p></li>
+                            <li><p>Belden  IBDN  System 10GX</p></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-12">
+                        <p>Belden  introduces a series of  enclosures that deliver cost saving and improve efficiency
+                            through enhanced  cable management ease of installation
+                        </p>
+                        <ul class="list-group-1">
+                            <li><p>Save time with flexible versatile and easy to install that work without fuss</p></li>
+                            <li><p>Keep down costs  of installation maintenance and overall footprint yet  provide reliable
+                                 protection of your sensitive electronic equipment.</p></li>
+                            <li><p>Achieve maximum uptime thanks to these enclosures significant contribution to your networks overall reliability</p></li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+            <div class="container hirschmann">
+                <div class="row">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <p>www.hirschmann.com</p>
+                            <img src="services_telecom2.jpg">
+                        </div>
+                        <div class="col-md-8">
+                            <img src="logo_hirschmann.jpg" id="logo-hirschmann">
+                            <p>Belden,  a world leader in providing signal transmission solutions,  completed the  acquisition of  Hirschmann  automation and 
+                                control in 2007. 
+                                As a result Hirschmann  industrial switches and  active devices now combined with  Belden cabling 
+                                connectivity and cable management products to provide an  unparalleled set of solutions for industrial Ethernet networks.
+                                Only Belden    provides  solutions for open system interconnection (OSI)  layers 1, 2 and 3  to ensure our  customers 
+                                network  are optimized for completely  reliable performance.
+                            </p>
+                            
+                            
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4 hilcos">
+                            <img src="services_telecom3.jpg" id="">
+                        </div>
+                        <div class="col-md-8">
+                            <p> It is currently the only brand in the market complete product range for  homogeneous data communication in the  
+                                industrial sector using Ethernet and fieldbus Systems. This includes  layer 2 and layer 3 switches as well as 
+                                industrial security and WLAN  systems that provide a uniform, company white communication infrastructure
+                                without interface problems and media discontinuities. These products are used in many different applications
+                                such as  factory automation,  process control,  transportation and  mechanical engineering. 
+                            </p>
+                            <p>Hirschmann  not only offers a  complete range of products for  company-wide  data networks, but also broad support package 
+                                direct from the product manufacturer. customers are supported both during the conception of tailor-made Communications solutions,  
+                                and planning,  designing commissioning and maintenance networks. Seminars  and workshops, in which trends  and developments are evaluated,
+                                and Technical subjects put into practice, complete the range of services.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <h2>Product folio  includes:</h2>
+                        <div class="row">
+                            <div class="col-md-4">
+                                <ul class="list-group-1">
+                                    <li><p>Industrial Networking</p></li>
+                                    <li><p>Unmanaged   Switches</p></li>
+                                    <li><p>Managed Switches </p></li>
+                                    <li><p>Waterproof Switched</p></li>
+                                </ul>
+                            </div>
+                            <div class="col-md-4">
+                                <ul class="list-group-1">
+                                    <li><p>Rackmount Switches</p></li>
+                                    <li><p>Embedded Ethernet</p></li>
+                                    <li><p>Security and firewalls</p></li>
+                                    <li><p>Routers and WAN</p></li>
+                                </ul>
+                                
+                            </div>
+                            <div class="col-md-4">
+                                <ul class="list-group-1">
+                                    <li><p> Wireless LAN</p></li>
+                                    <li><p>Network management software</p></li>
+                                    <li><p> Media converters</p></li>
+                                    <li><p>Serial Communications</p></li>
+                                    <li><p>Accessories</p></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="container panduit">
+                <div class="row">
+                    <div class="col-md-12">
+                        <p>www.panduit.com</p>
+                        <img src="logo_panduit.jpg" id="logo-panduit">
+                    </div>
+                    <div class="col-md-6">
+                        <p>Providing innovative solutions for over 55 years.</p>
+                        <p> Panduit  was born from innovation. In 1955  we launched  our  first product.  Panduct  
+                            wiring duct,  new invention that uniquely organised control panel  wiring and  allowed
+                            new wires to be  added  quickly  neatly.   since that time Panduit  has introduced 
+                            thousands of problem solving new products and remind committed to providing innovative
+                            electrical and network infrastructure solutions.
+                        </p>
+                        <p> Today,  customer look to Panduit  trusted advisor who works with them to   address  there
+                             most critical business challenges  within there  data centre,   Enterprise and industrial 
+                              environments.  Our  proven  reputation for quality and Technology leadership  coupled  
+                              with a  robust ecosystem of partners across the world enables Panduit  to deliver 
+                              comprehensive solutions that unify  the physical infrastructure  to help our  
+                              customers achieve operational and financial goals.
+                        </p>
+                    </div>
+                    <div class="col-md-6">
+                        <h2>Panduit  product portfolio includes:</h2>
+                        <ul class="list-group-1">
+                            <li><p>Cabinets, thermal management,  racks  and  enclosures</p></li>
+                            <li><p>Cable routing and Pathways</p></li>
+                            <li><p>Cable and wire bundling</p></li>
+                            <li><p>Copper systems</p></li>
+                            <li><p>Software and Hardware</p></li>
+                            <li><p>Fibre systems</p></li>
+                            <li><p>Grounding</p></li>
+                            <li><p>Identification</p></li>
+                            <li><p>Power distribution and environmental monitoring</p></li>
+                            <li><p>Safety and security tools</p></li>
+                            <li><p>Wire routing, protection and insulation</p></li>
+                            <li><p>Wire termination</p></li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+            <div class="container korenix">
+                <div class="row">
+                    <div class="col-md-5">
+                        <img src="services_telecom7.jpg">
+                    </div>
+                    <div class="col-md-7">
+                        <img src="logo_korenix.jpg"id="logo-korenix">
+                        <p>www.korenix.com</p>
+                        <p>Korenix Technology, a Beiger  group company  within  data communication business area,  
+                            is a market leading brand in industrial wireless and networking solution  with an  extensive
+                            track record in providing  innovative,  market oriented,  value focussed solutions. Worldwide
+                            customer base covers different sales channels, including end customers,OEMs,  system integrators
+                            and brand label partners.
+                        </p>
+                        <h2>Korenix  Product Portfolio Includes:</h2>
+                        <ul class="list-group-1">
+                            <li><p>Surveillance for  video  over IP network</p></li>
+                            <li><p>M2M  for IoT world</p></li>
+                            <li><p> Automation for building  and facilities</p></li>
+                            <li><p> Remote monitoring for cloud network</p></li>
+                            <li><p>Transportation for  intelligent system</p></li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="container-fluid footer-container" id=""> <!-- footer-class -->
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <h3>ABOUT US</h3>
+                            <h5> &laquo;Established in 2005 Al Mazrouei ICAS WLL has been growing steadily in building automation latest technology as well as Cables and Low Current Systems.&raquo;</h5>
+                            <br>
+                            <br>
+                            <br><img src="logo.jpg">
+                            <div class="download-logo">
+                            <!-- <div class="download-logo"> -->
+                                <span><i class="fa fa-cloud-download" style="font-size:20px;color:white">&nbsp;Download Profile</i></span>
+                            <!-- </div> -->
+                            </div>
+
+                
+                        </div>
+                        <div class="col-md-4">
+                            <h3>QUICK LINKS</h3>
+                            <a href="homepage.html">HOME</a>
+                            <a href="#">ABOUT US</a>
+                            <a href="#">SERVICES</a>
+                            <a href="#">MARKET SEGMENT</a>
+                            <a href="mega-page.html">PRODUCT PROFILE</a>
+                            <a href="careers-3.html">CAREER</a>
+                            <a href="#">MAJOR PROJECTS</a>
+                            <a href="#">CONTACT US</a>
+                        </div>
+                        <div class="col-md-4 " id="contact-details">
+                            <h3>CONTACT DETAILS</h3>
+                            <h5>P.O. Box:22652</h5>
+                            <h5>7th floor, Office-701, Bahzad Building Al Jazeera St.23</h5>
+                            <h5> , Fereej Bin Mahmoud Doha, Qatar</h5>
+                            <h5>Tel: +97444419459</h5>
+                            <h5>Fax: +97444429659</h5>
+                            <h5>E-mail: info@mazrouicas.com</h5>
+                            <div id="facebook"><a href="#" class="fa fa-facebook"></a></div>
+                            <div id="insta"><a href="#" class="fa fa-instagram"></a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
